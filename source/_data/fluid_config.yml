@@ -3,35 +3,35 @@ navbar:
   ground_glass:
     enable: true
 index:
-  banner_img: /images/uploads/picture098.jpg
+  banner_img: /images/uploads/picture177.jpg
   banner_img_height: 100
   slogan:
     text: Hi! This is LingXi's blogs
 post:
   banner_img: /images/uploads/mmexport1602581319886.webp
   banner_img_height: 70
-  default_index_img: /images/uploads/wallhaven-g8wvm7.webp
+  default_index_img: /images/uploads/picture122.jpg
 archive:
-  banner_img: /images/uploads/1616421595370-wallhaven-q6ov7d.jpg
+  banner_img: /images/uploads/picture139.png
   banner_img_height: 80
   subtitle: null
 category:
-  banner_img: /images/uploads/1616421818281-wallhaven-zm93dj.jpg
+  banner_img: /images/uploads/picture001.png
   banner_img_height: 80
   subtitle: null
 tag:
-  banner_img: /images/uploads/1616421669417-wallhaven-1kkm2g.jpg
+  banner_img: /images/uploads/picture001.png
   banner_img_height: 80
   subtitle: null
 about:
-  banner_img: /images/uploads/wallhaven-pkkr2.webp
+  banner_img: /images/uploads/picture019.jpg
   banner_img_height: 80
   subtitle: null
   avatar: /img/avatar.png
-  name: Fluid
-  intro: An elegant theme for Hexo
+  name: 铃溪的blogs
+  intro: 探寻天地之理，以窥宇宙之秘
 links:
-  banner_img: /images/uploads/1616421416500-wallhaven-rddv31.jpg
+  banner_img: /images/uploads/picture064.png
   banner_img_height: 80
   subtitle: null
   items:
