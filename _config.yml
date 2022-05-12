@@ -198,7 +198,7 @@ bangumi: # 追番设置
   extra_options:
     key: value
     
-  cinema: # 追剧设置
+cinema: # 追剧设置
   enable: false
   path:
   vmid:
