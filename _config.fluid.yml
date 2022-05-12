@@ -323,6 +323,7 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: '追番', link: '/bangumis', icon: "iconfont icon-bilibili-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
     - { key: 'Admin', link: '/admin/', icon: "iconfont icon-users" }
@@ -884,7 +885,6 @@ about:
     - { class: "iconfont icon-github-fill", link: "https://github.com/cfx2020", tip: "GitHub" }
     - { class: "iconfont icon-bilibili", link: "https://space.bilibili.com/335678244", tip: "BiliBili" }
     - { class: "iconfont icon-twitter-fill", link: "https://twitter.com/c1659324496", tip: "Twitter"}
-
 
 #---------------------------
 # 自定义页
