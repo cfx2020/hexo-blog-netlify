@@ -197,4 +197,20 @@ bangumi: # 追番设置
     port: '代理端口'
   extra_options:
     key: value
+    
+  cinema: # 追剧设置
+  enable: false
+  path:
+  vmid:
+  title: '追剧列表'
+  quote: '生命不息，追剧不止！'
+  show: 1
+  lazyload: true
+  loading:
+  metaColor:
+  color:
+  webp:
+  progress:
+  extra_options:
+    key: value
 
