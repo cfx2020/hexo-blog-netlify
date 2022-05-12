@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "cinema": "hexo cinema -u",
+    "bangumi": "hexo bangumi -u",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
@@ -27,5 +29,6 @@
     "hexo-renderer-markdown-it":"6.0.1",
     "hexo-renderer-stylus": "2.0.1",
     "hexo-server": "3.0.0"
+    "hexo-bilibili-bangumi": "1.7.3"
   }
 }
