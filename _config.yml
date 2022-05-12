@@ -180,17 +180,21 @@ image_minifier:
 
 bangumi: # 追番设置
   enable: true
+  source: bili
   path: bangumis/index.html
   vmid: 335678244
   title: '追番列表'
   quote: '生命不息，追番不止！'
   show: 1
+  lazyload: true
   loading: /img/loading.gif
   metaColor: #808080
   color: #000000
   webp: true
   progress: true
+  proxy:
+    host: '代理host'
+    port: '代理端口'
   extra_options:
     key: value
-
 
