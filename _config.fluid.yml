@@ -587,7 +587,7 @@ post:
 
     # 是否使用相对时间表示，比如："3 天前"
     # If true, it will be a relative time, such as: "3 days ago"
-    relative: true
+    relative: false
 
   # 文章右侧目录
   # Table of contents (TOC)
@@ -603,7 +603,7 @@ post:
   # 版权声明，会显示在每篇文章的结尾
   # Copyright, will be displayed at the end of each post
   copyright:
-    enable: true
+    enable: false
     content: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！'
 
   # 文章底部上一篇下一篇功能
