@@ -865,6 +865,12 @@ tag:
     start_color: "#BBBBEE"
     end_color: "#337ab7"
 
+#---------------------------
+# 追番页
+# bangumis Page
+#---------------------------
+bangumis:
+  enable: true
 
 #---------------------------
 # 关于页
