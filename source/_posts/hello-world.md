@@ -8,6 +8,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 ## Quick Start
 $\ce{C+O2=CO2}$
+$\text{C+O_2=CO_2}$
 
 ### Create a new post
 
