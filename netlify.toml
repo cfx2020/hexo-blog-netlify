@@ -1,6 +1,7 @@
 [build]
   publish = "public"
-  command = "npm run build"
+  command = "hexo clean && hexo bangumi -u && hexo generate"
+  
 
 [build.environment]
   NODE_VERSION = "14"
