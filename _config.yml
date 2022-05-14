@@ -219,10 +219,10 @@ live2d:
     # use: wanko # 博客根目录/live2d_models/ 下的目录名
     use: ./kesyoban # 相对于博客根目录的路径
     # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
-    display:    # 模型展示的位置设置
-        position: left      # 方位
-        width: 300          # 宽度
-        height: 400         # 高度
-    mobile:
-        show: true   # 在移动设备上是否开启live2d
+  display:    # 模型展示的位置设置
+    position: left      # 方位
+    width: 300          # 宽度
+    height: 400         # 高度
+  mobile:
+    show: true   # 在移动设备上是否开启live2d
 
