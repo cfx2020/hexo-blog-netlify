@@ -1,0 +1,678 @@
+---
+banner_img: data:image/png;base64,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
+index_img: https://pic3.zhimg.com/v2-bcf7b3c74d00d6ed1601f4bc7bcc015d_720w.jpg?source=172ae18b
+title: NumPy库入门
+date: 2022-05-14 09:48:20
+updated: 2022-05-14 09:48:20
+tags:
+  - NumPy
+categories:
+  - 数据分析
+comments: true
+---
+
+
+## 数据的维度
+
+
+一个数据表达一个含义，一组数据表达一个或多个含义。
+
++ **维度**：一组数据的组织形式，一组数据可以表示为一维或二维乃至多维的形式，每个维度表达的含义可能不相同。
+
++ **一维数据**：由对等关系的有序或无序数据构成，采用线性的方式组织。使用列表、数组和集合组织。
+
+  > 列表和数组都是表示一组数据的有序结构，主要区别在于列表里每个元素的数据类型可以不同，而数组要求每个元素的类型相同。
+
++ **二维数据**：由多个一维数据构成，是一维数据的组合形式。表格是典型的二维数据，表头可以是二维数据的一部分，可以用多维列表来表示，也就是列表里的列表
+
++ **多维数据**：由一维或二维数据在新维度上扩展形成，比如表格随着时间变化就多了一个时间维度。也可用多维列表表示。
+
++ **高维数据**：仅利用最基本的二元关系展示数据间的复杂结构，没有数据规整的表达方式，但是有数据的包含关系、并列关系、树形关系等，通俗来说，高维数据就是数据用键值对将数据组织起来的方式，比如，字典、json和yaml格式就可以表示高维数据
+
+
+## NumPy的数组对象：ndarray
+
+
+### NumPy
+
+**NumPy**是一个开源的Python科学计算基础库。
+
++ 一个强大的N维数数组对象ndarray
++ 广播功能函数
++ 整合C/C++/Fortran代码的工具
++ 线性代数，傅里叶变换、随机数生成等功能
+
+NumPy是Scipy、Pandas等数据处理或科学计算库的基础。
+
+常使用`import numpy as np`引入模块的别名。
+
+
+### N维数组对象：ndarray
+
+**提出背景：**例计算A^2^+B^3^，其中，A和B是一维数组
+
+```python
+# 使用列表类型实现
+def pySum():
+    a = [0,1,2,3,4]
+    b = [9,8,7,6,5]
+    c = []
+    
+    for i in range(len(a)):
+        c.append(a[i]**2 + b[i]**3)
+        
+        return c
+    
+print(pySum())
+```
+
+> 在这种方式中我们还是使用元素间的关系进行计算，这不是科学计算的思想和方式
+
+```python
+# 使用numpy数组ndarray实现
+import numpy as np
+def npSum():
+    a = np.array([0,1,2,3,4])
+    b = np.array([9,8,7,6,5])
+    
+    c = a**2 + b**3
+    
+    return c
+
+print(npSum())
+```
+
+使用numpy进行计算时，我们将a和b两个列表当作单个数据进行计算，只要两个列表维度相同就能进行计算。
+
++ 数组对象可以去掉元素间运算所需的循环，使一维向量更像单个数据
++ 设置专门的数组对象，经过优化可以提升这类应用的运算速度，因为numpy底层是使用非常高效率的c语言进行运算的。
+
+科学计算中，一个维度所有数据的类型往往相同。
+
++ 数组对象采用相同的数据类型，有助于节省运算和储存空间
+
+正是由于numpy库对科学计算思维的支持性好，运算效率高，占用内存少，所以numpy成为了python中专门用于科学计算的库。
+
+---
+
+
+#### ndarray
+
+
+**ndarray**是一个多维数组对象，由两部分构成：
+
++ 实际的数据
++ 描述这些数据的元数据（数据维度、数据类型）等。
+
+ndarray数组一般要求所有元素类型相同（同质），数组下标从0开始。ndarray在程序中的别名就是array使用`np.array`即可生成一个ndarray数组。
+
+```python
+a=np.array([[0,1,2,3,4],[9,8,7,6,5]])
+
+a
+Out[8]: 
+array([[0, 1, 2, 3, 4],
+       [9, 8, 7, 6, 5]])
+
+print(a) # np.array()输出成[]形式，元素由空格分割。
+[[0 1 2 3 4]
+ [9 8 7 6 5]]
+```
+
+ndarray有两个基本概念：
+
++ 轴（axis）：保存数据的维度
++ 秩（rank）：轴的数量
+
+
+#### ndarray对象的属性
+
+| 属性        | 说明                                           |
+| ----------- | ---------------------------------------------- |
+| `.ndim`     | 秩，即轴的数量或维度的数量                     |
+| `.shape`    | ndarray对象的尺度，对于矩阵，n行m列            |
+| `.size`     | ndarray对象元素的个数，相当于`.shape`中n*m的值 |
+| `.dtype`    | ndarray对象的元素类型                          |
+| `.itemsize` | ndarray对象中每个元素的大小，以字节为单位      |
+
+```python
+a=np.array([[0,1,2,3,4],[9,8,7,6,5]])
+
+a.ndim
+Out[12]: 2
+
+a.shape
+Out[13]: (2, 5)
+
+a.size
+Out[14]: 10
+
+a.dtype
+Out[15]: dtype('int32')
+
+a.itemsize
+Out[16]: 4
+```
+
+#### nadarray的元素类型
+
+| 数据类型   | 说明                                                 |
+| ---------- | ---------------------------------------------------- |
+| bool       | 布尔类型，True或False                                |
+| intc       | 与C语言中的int类型一致，一般是int32或int64           |
+| intp       | 用于索引的整数，与C语言中的ssize_t一致，int32或int64 |
+| int8       | 字节长度的整数，取值：[-128,127]                     |
+| int16      | 16位长度的整数，取值：[-32768,32767]                 |
+| int32      | 32位长度的整数，取值：[-2^31^,2^31^-1]               |
+| int64      | 64位长度的整数，取值：[-2^63^,2^63^-1]               |
+| uint8      | 8位无符号整数，取值：[0,255]                         |
+| uint16     | 16位无符号整数，取值：[0,65535]                      |
+| uint32     | 32位无符号整数，取值：[0,2^32^-1]                    |
+| uint64     | 64位无符号整数，取值：[0,2^64^-1]                    |
+| float16    | 16位半精度浮点数：1位符号位，5位指数，10位尾数       |
+| float32    | 32位半精度浮点数：1位符号位，8位整数，23位尾数       |
+| float64    | 64位半精度浮点数：1位符号位，11位指数，52位尾数      |
+| complex64  | 复数类型，实部和虚部都是32位浮点数                   |
+| complex128 | 复数类型，实部和虚部都是64位浮点数                   |
+
+> 复数是由：实部(.real) + j虚部(.imag) 构成。
+>
+> 对比python语法仅支持整数、浮点数和复数3种类型。
+>
+> + 科学计算涉及数据较多，对储存和性能都有较高要求
+> + 对元素类型精细定义，有助于NumPy合理使用储存空间并优化性能。
+> + 对元素类型精细定义，有助于程序员对程序规模有合理评估
+
+ndarray数组可以由非同质对象构成：
+
+```python
+x=np.array([[0,1,2,3,4,5],[9,8,7,6]])
+
+x.shape
+Out[18]: (2,)
+
+x.dtype
+Out[19]: dtype('O')
+
+x
+Out[20]: array([list([0, 1, 2, 3, 4, 5]), list([9, 8, 7, 6])], dtype=object)
+
+x.itemsize
+Out[21]: 8
+
+x.size
+Out[22]: 2
+```
+
+非同质ndarray元素为对象类型，非同质对象无法有效发挥NumPy优势，尽量避免使用。
+
+
+## ndarray数组的创建和变换
+
+创建ndarray数组的方法有四种：
+
+
+### 从python列表、元组等类型创建
+
+使用`x=np.array(list/tuple，dtype=np.float32)`，将列表和元组当作参数输入给函数，可以使用dtype规定数据类型，如不指定，NumPy将根据数据情况关联一个dtype类型。
+
+```python
+x=np.array([0,1,2,3])  # 从列表创建
+
+print(x)
+[0 1 2 3]
+
+x=np.array((4,5,6,7))  # 从元组创建
+
+print(x)
+[4 5 6 7]
+
+x=np.array([[1,2],[9,8],(0.1,0.2)])  # 从列表合约元组混合类型创建
+
+print(x)
+[[1.  2. ]
+ [9.  8. ]
+ [0.1 0.2]]
+```
+
+### 使用NumPy中函数创建
+
+使用arange，ones，zeros等函数创建
+
+| 函数                  | 说明                                            |
+| --------------------- | ----------------------------------------------- |
+| `np.arange()`         | 类似range()函数，返回ndarray类型，元素从0到n-1  |
+| `np.ones(shape)`      | 根据shape生成一个全1数组，shape是元组类型       |
+| `np.zeros(shape)`     | 根据shape生成一个全0数组，shape是元组类型       |
+| `np.full(shape,val)`  | 根据shape生成一个数据，每个元素值都是val        |
+| `np.eye(n)`           | 创建一个正方形的n*n单位矩阵，对角线为1，其余为0 |
+| `np.ones_like(a)`     | 根据数组a的形状生成一个全1数组                  |
+| `np.zeros_like(a)`    | 根据数组a的形状生成一个全0数组                  |
+| `np.full_like(a,val)` | 根据数组a的形状生成一个数组，每个元素值都是val  |
+| `np.linspace()`       | 根据起止数据等间距地填充数据，形成数组          |
+| `np.concatenate()`    | 将两个或多个数组合并成一个新的数组              |
+
+
+```python
+np.arange(10)   # arange生成的是整数类型
+Out[30]: array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+    
+np.ones((3,6))  # ones，zeros，eye，如果不指定dtype，一律生成浮点数类型。
+Out[31]: 
+array([[1., 1., 1., 1., 1., 1.],
+       [1., 1., 1., 1., 1., 1.],
+       [1., 1., 1., 1., 1., 1.]])
+
+
+np.zeros((3,6),dtype=np.int32)
+Out[33]: 
+array([[0, 0, 0, 0, 0, 0],
+       [0, 0, 0, 0, 0, 0],
+       [0, 0, 0, 0, 0, 0]])
+
+
+np.eye(5)
+Out[35]: 
+array([[1., 0., 0., 0., 0.],
+       [0., 1., 0., 0., 0.],
+       [0., 0., 1., 0., 0.],
+       [0., 0., 0., 1., 0.],
+       [0., 0., 0., 0., 1.]])
+
+
+x=np.ones((2,3,4))  # 生成三维数组，有两个矩阵，每个矩阵有三个维度，每个维度有4个元素。
+
+print(x)
+[[[1. 1. 1. 1.]
+  [1. 1. 1. 1.]
+  [1. 1. 1. 1.]]
+
+ [[1. 1. 1. 1.]
+  [1. 1. 1. 1.]
+  [1. 1. 1. 1.]]]
+
+x.shape
+Out[39]: (2, 3, 4)
+
+    
+a=np.linspace(1,10,4)  # 生成1到10范围内一定步长的4个数字
+
+a
+Out[41]: array([ 1.,  4.,  7., 10.])
+
+b=np.linspace(1,10,4,endpoint=False)  # endpoint规定最后一个数字是不是10
+
+b
+Out[43]: array([1.  , 3.25, 5.5 , 7.75])
+
+c=np.concatenate((a,b))  # 合并两个数组，没规定dtype就按照原来的数据类型输出
+
+c
+Out[45]: array([ 1.  ,  4.  ,  7.  , 10.  ,  1.  ,  3.25,  5.5 ,  7.75])
+```
+
+对于创建后的ndarray数组，可以对其进行维度变换和元素类型变换
+
+维度变换的方法：
+
+| 方法                 | 说明                                                |
+| -------------------- | --------------------------------------------------- |
+| `.reshape(shape)`    | 不改变数组元素，返回一个shape形状的数组，原数组不变 |
+| `.resize(shape)`     | 与`.reshape()`功能一致，但修改原数组                |
+| `.swapaxes(ax1,ax2)` | 将数组n个维度中两个维度进行调换                     |
+| `.flatten()`         | 对数组进行降维，返回折叠后的一维数组，原数组不变    |
+
+
+```python
+a=np.ones((2,3,4),dtype=np.int32)
+
+a.reshape((3,8)) # 将三维数组转换成二维数组
+Out[48]: 
+array([[1, 1, 1, 1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1, 1, 1, 1]])
+
+a
+Out[49]:   # reshape没有改变原数组
+array([[[1, 1, 1, 1],
+        [1, 1, 1, 1],
+        [1, 1, 1, 1]],
+
+       [[1, 1, 1, 1],
+        [1, 1, 1, 1],
+        [1, 1, 1, 1]]])
+
+a.resize((3,8))
+
+a
+Out[51]:   # resize改变了原数组
+array([[1, 1, 1, 1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1, 1, 1, 1]])
+
+array([[1, 1, 1, 1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1, 1, 1, 1]])
+
+a.flatten()  # flatten对数组进行降维，降至一维，并不改变原数组
+Out[52]: 
+array([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+       1, 1])
+
+a
+Out[53]: 
+array([[1, 1, 1, 1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1, 1, 1, 1]])
+```
+
+
+类型变换方法：
+
+
+`new_a = a.astype(new_type)`
+
+```python
+a=np.ones((2,3,4),dtype=np.int)
+
+a
+Out[55]: 
+array([[[1, 1, 1, 1],
+        [1, 1, 1, 1],
+        [1, 1, 1, 1]],
+
+       [[1, 1, 1, 1],
+        [1, 1, 1, 1],
+        [1, 1, 1, 1]]])
+
+b=a.astype(np.float)
+
+b
+Out[57]: 
+array([[[1., 1., 1., 1.],
+        [1., 1., 1., 1.],
+        [1., 1., 1., 1.]],
+
+       [[1., 1., 1., 1.],
+        [1., 1., 1., 1.],
+        [1., 1., 1., 1.]]])
+```
+
+> astype()方法一定会创建新的数组（原始数据的一个拷贝），即使两个类型一致。
+
+ndarray数组向列表转换使用`a.tolist()`方法
+
+```python
+a=np.full((2,3,4),25,dtype=np.int32)
+
+a
+Out[59]: 
+array([[[25, 25, 25, 25],
+        [25, 25, 25, 25],
+        [25, 25, 25, 25]],
+
+       [[25, 25, 25, 25],
+        [25, 25, 25, 25],
+        [25, 25, 25, 25]]])
+
+a.tolist()
+Out[60]: 
+[[[25, 25, 25, 25], [25, 25, 25, 25], [25, 25, 25, 25]],
+ [[25, 25, 25, 25], [25, 25, 25, 25], [25, 25, 25, 25]]]
+
+```
+
++ 从字节流（raw bytes）中创建
++ 从文件内中读取特定格式
+
+
+## ndarray数组的操作
+
+
+ndarray数组的操作是索引和切片
+
+**索引**：获取数组中特定位置元素的过程
+
+**切片**：获取数组元素子集的过程
+
+一维数组的索引和切片：与python的列表类似
+
+
+````python
+# 一维数组的索引和切片
+a=np.array([9,8,7,6,5])
+
+a[2]  # 索引第三个值
+Out[62]: 7
+
+a[1:4:2]  # [起始编号:终止编号（不含）:步长]
+Out[63]: array([8, 6])
+    
+# 多维数组索引和切片
+a=np.arange(24).reshape((2,3,4))
+
+a
+Out[65]: 
+array([[[ 0,  1,  2,  3],
+        [ 4,  5,  6,  7],
+        [ 8,  9, 10, 11]],
+
+       [[12, 13, 14, 15],
+        [16, 17, 18, 19],
+        [20, 21, 22, 23]]])
+
+a[1,2,3]   # 指定第一个维度的第二个元素，第二个维度的第三个元素，第三个维度的第四个元素。
+Out[66]: 23
+
+a[0,1,2]
+Out[67]: 6
+
+a[-1,-2,-3]  
+Out[68]: 17
+    
+a[:,1,-3]   # 多维数组的切片就是对每一个维度都进行一维数组切片，用“，”隔开，每个维度可以使用步长跳跃切片
+Out[69]: array([ 5, 17])
+
+a[:,1:3,:]
+Out[70]: 
+array([[[ 4,  5,  6,  7],
+        [ 8,  9, 10, 11]],
+
+       [[16, 17, 18, 19],
+        [20, 21, 22, 23]]])
+
+a[:,:,::2]
+Out[71]: 
+array([[[ 0,  2],
+        [ 4,  6],
+        [ 8, 10]],
+
+       [[12, 14],
+        [16, 18],
+        [20, 22]]])
+````
+
+
+## ndarray数组的运算
+
+
+### 数组与标量之间的运算
+
+
+数组与标量之间的运算作用于数组的每一个元素
+
+
+```python
+# 数组与标量之间的运算计算a与元素平均值的商
+a=np.arange(24).reshape((2,3,4))
+
+a
+Out[73]: 
+array([[[ 0,  1,  2,  3],
+        [ 4,  5,  6,  7],
+        [ 8,  9, 10, 11]],
+
+       [[12, 13, 14, 15],
+        [16, 17, 18, 19],
+        [20, 21, 22, 23]]])
+
+a.mean()  # 计算平均值
+Out[74]: 11.5
+
+a=a/a.mean()
+
+a
+Out[76]: 
+array([[[0.        , 0.08695652, 0.17391304, 0.26086957],
+        [0.34782609, 0.43478261, 0.52173913, 0.60869565],
+        [0.69565217, 0.7826087 , 0.86956522, 0.95652174]],
+
+       [[1.04347826, 1.13043478, 1.2173913 , 1.30434783],
+        [1.39130435, 1.47826087, 1.56521739, 1.65217391],
+        [1.73913043, 1.82608696, 1.91304348, 2.        ]]])
+```
+
+
+### NumPy一元函数
+
+
+对ndarray中的数据执行元素级运算的函数
+
+
+| 函数                                                         | 说明                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `np.abs(x) np.fabs(x)`                                       | 计算数组各元素的绝对值                                       |
+| `np.sqrt(x)`                                                 | 计算数组各元素的平方根                                       |
+| `np.square(x)`                                               | 计算数组各元素的平方                                         |
+| `np.log(x) np.log10(x) np.log2(x)`                           | 计算数组各元素的自然对数、10底对数和2底对数，对应数学的ln(x)，lg(x)，log~2~(x) |
+| `np.ceil(x) np.floor(x)`                                     | 计算数组各元素的ceiling值和floor值，向上取整和向下取整       |
+| `np.rint(x)`                                                 | 计算数组各元素的四舍五入值                                   |
+| `np.modf(x)`                                                 | 将数组各元素的小数和整数部分以两个独立数组形式返回           |
+| `np.cos(x) np.cosh(x) np.sin(x) np.sinh(x) np.tan(x) np.tanh(x)` | 计算数组各元素的普通型和双曲型三角函数                       |
+| `np.exp(x)`                                                  | 计算数组各元素的指数值                                       |
+| `np.sign(x)`                                                 | 计算数组各元素的符号值，1(+),0,-1(-)                         |
+
+
+```python
+a=np.arange(24).reshape((2,3,4))
+
+np.square(a)  # 计算各元素的平方
+Out[83]: 
+array([[[  0,   1,   4,   9],
+        [ 16,  25,  36,  49],
+        [ 64,  81, 100, 121]],
+
+       [[144, 169, 196, 225],
+        [256, 289, 324, 361],
+        [400, 441, 484, 529]]], dtype=int32)
+
+a=np.sqrt(a)  # 计算各元素的平方根
+
+a
+Out[85]: 
+array([[[0.        , 1.        , 1.41421356, 1.73205081],
+        [2.        , 2.23606798, 2.44948974, 2.64575131],
+        [2.82842712, 3.        , 3.16227766, 3.31662479]],
+
+       [[3.46410162, 3.60555128, 3.74165739, 3.87298335],
+        [4.        , 4.12310563, 4.24264069, 4.35889894],
+        [4.47213595, 4.58257569, 4.69041576, 4.79583152]]])
+
+np.modf(a)  # 拆分各元素的小数和整数部分
+Out[86]: 
+(array([[[0.        , 0.        , 0.41421356, 0.73205081],
+         [0.        , 0.23606798, 0.44948974, 0.64575131],
+         [0.82842712, 0.        , 0.16227766, 0.31662479]],
+ 
+        [[0.46410162, 0.60555128, 0.74165739, 0.87298335],
+         [0.        , 0.12310563, 0.24264069, 0.35889894],
+         [0.47213595, 0.58257569, 0.69041576, 0.79583152]]]),
+ array([[[0., 1., 1., 1.],
+         [2., 2., 2., 2.],
+         [2., 3., 3., 3.]],
+ 
+        [[3., 3., 3., 3.],
+         [4., 4., 4., 4.],
+         [4., 4., 4., 4.]]]))
+```
+
+> 要时刻注意使用函数之后，原来的数组有没有被改变
+
+
+### NumPy二元函数
+
+
+| 函数                                                  | 说明                                       |
+| ----------------------------------------------------- | ------------------------------------------ |
+| `+-*/**`                                              | 两个数组各元素进行对应运算                 |
+| `np.maximum(x,y) np.fmax() np.minimum(x,y) np.fmin()` | 元素级最大值/最小值计算                    |
+| `np.mod(x,y)`                                         | 元素级的模运算，也就是求余数               |
+| `np.copysign(x,y)`                                    | 将数组y中各元素值的符号赋值给数组x对应元素 |
+| `> < >= <= == !=`                                     | 算术比较，产生布尔型数组                   |
+
+
+```python
+a=np.arange(24).reshape((2,3,4))
+
+b=np.sqrt(a)  # 计算平方根
+
+a
+Out[89]: 
+array([[[ 0,  1,  2,  3],
+        [ 4,  5,  6,  7],
+        [ 8,  9, 10, 11]],
+
+       [[12, 13, 14, 15],
+        [16, 17, 18, 19],
+        [20, 21, 22, 23]]])
+
+b
+Out[90]: 
+array([[[0.        , 1.        , 1.41421356, 1.73205081],
+        [2.        , 2.23606798, 2.44948974, 2.64575131],
+        [2.82842712, 3.        , 3.16227766, 3.31662479]],
+
+       [[3.46410162, 3.60555128, 3.74165739, 3.87298335],
+        [4.        , 4.12310563, 4.24264069, 4.35889894],
+        [4.47213595, 4.58257569, 4.69041576, 4.79583152]]])
+
+np.maximum(a,b)  #计算极大值，浮点数和整数类型选择浮点数
+Out[91]: 
+array([[[ 0.,  1.,  2.,  3.],
+        [ 4.,  5.,  6.,  7.],
+        [ 8.,  9., 10., 11.]],
+
+       [[12., 13., 14., 15.],
+        [16., 17., 18., 19.],
+        [20., 21., 22., 23.]]])
+
+a>b
+Out[92]: 
+array([[[False, False,  True,  True],
+        [ True,  True,  True,  True],
+        [ True,  True,  True,  True]],
+
+       [[ True,  True,  True,  True],
+        [ True,  True,  True,  True],
+        [ True,  True,  True,  True]]])
+```
+
+
+## 非常具有代表意义的一个列表字典实例
+
+
+```python
+# 统计同学们从事那些专业最多
+names=input("请输入各个同学行业名称，行业名称之间用空格间隔（回车结束输入）：")
+t=names.split()
+d = {}
+for c in range(len(t)):
+    d[t[c]]=d.get(t[c],0)+1
+ls = list(d.items())
+ls.sort(key=lambda x:x[1], reverse=True) # 按照数量排序
+for k in range(len(ls)):
+    zy,num=ls[k]
+    print("{}:{}".format(zy,num))
+```
+
