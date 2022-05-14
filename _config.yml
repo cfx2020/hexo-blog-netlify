@@ -200,19 +200,23 @@ bangumi: # 追番设置
     lazyload:
       enable: false # 关闭主题自带的懒加载(只关闭番剧页，不影响其他页面)
     
-cinema: # 追剧设置
-  enable: false
-  path:
-  vmid:
-  title: '追剧列表'
-  quote: '生命不息，追剧不止！'
-  show: 1
-  lazyload: true
-  loading:
-  metaColor:
-  color:
-  webp:
-  progress:
-  extra_options:
-    key: value
+live2d:
+  model:
+    scale: 1
+    hHeadPos: 0.5
+    vHeadPos: 0.618
+    use: live2d-widget-model-PLT # 下载的动画模型名称
+  display:
+    superSample: 2
+    width: 120
+    height: 200
+    position: left # 模型在网页显示位置,left为左,right为右
+    hOffset: 20
+    vOffset: 50
+  mobile:
+    show: true  # 移动设备是否显示,true则显示,false则不显示
+    scale: 0.5
+  react:
+    opacityDefault: 0.7
+    opacityOnHover: 0.2
 
