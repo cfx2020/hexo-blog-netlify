@@ -203,10 +203,6 @@ font:
 custom_js:
   - https://identity.netlify.com/v1/netlify-identity-widget.js
   - /js/caidai
-  - //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/boom.js # 鼠标点击爆炸效果
-  - //cdn.bootcss.com/animejs/2.2.0/anime.min.js #依赖
-  - //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/qipao.js #头部上升气泡
-
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
