@@ -205,7 +205,7 @@ live2d:
     scale: 1
     hHeadPos: 0.5
     vHeadPos: 0.618
-    use: live2d-widget-model-PLT # 下载的动画模型名称
+    use: PLT # 下载的动画模型名称
   display:
     superSample: 2
     width: 120
