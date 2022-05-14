@@ -210,6 +210,7 @@ custom_js:
 custom_css:
   - /css/indeximg-hover
   - /css/gundongtiao
+  - /css/toubudaziji
 
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
