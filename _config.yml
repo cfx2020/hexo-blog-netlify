@@ -186,7 +186,7 @@ bangumi: # 追番设置
   title: '追番列表'
   quote: '生命不息，追番不止！'
   show: 1
-  lazyload: false
+  lazyload: true
   loading: /img/loading.gif
   metaColor: #808080
   color: #000000
@@ -197,6 +197,8 @@ bangumi: # 追番设置
     port: '代理端口'
   extra_options:
     key: value
+    lazyload:
+      enable: false # 关闭主题自带的懒加载(只关闭番剧页，不影响其他页面)
     
 cinema: # 追剧设置
   enable: false
