@@ -5,8 +5,10 @@ title: NumPy库入门
 date: 2022-05-14 09:48:20
 updated: 2022-05-14 09:48:20
 tags:
+  - Python
   - NumPy
 categories:
+  - Python
   - 数据分析
 comments: true
 ---
