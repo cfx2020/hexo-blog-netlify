@@ -5,8 +5,10 @@ title: NumPy数据储存
 date: 2022-05-14 21:18:05
 updated: 2022-05-14 21:18:05
 tags:
+  -Python
   - NumPy
 categories:
+  - Python
   - 数据分析
 comments: true
 ---
