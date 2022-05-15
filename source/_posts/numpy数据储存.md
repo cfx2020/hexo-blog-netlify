@@ -5,7 +5,7 @@ title: NumPy数据储存
 date: 2022-05-14 21:18:05
 updated: 2022-05-14 21:18:05
 tags:
-  -Python
+  - Python
   - NumPy
 categories:
   - Python
