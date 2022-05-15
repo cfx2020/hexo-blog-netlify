@@ -1,20 +1,59 @@
-.copy-btn {
-  font-size: 1rem;
-
-  > i {
-    font-size: 0.875rem;
-    font-weight: bold;
-  }
-}
-
-.copy-btn-dark {
-  color: darkslategrey;
-}
-
+// ==================================================
+// 代码块折叠
+// ==================================================
 figure.highlight {
+    background: rgb(230, 235, 241);
+    border-radius: 0.5rem;
+
+    table {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+
+    // 折叠图标动画
+    .fas.fa-angle-down {
+        transform: none;
+        transition: transform 0.2s ease-in-out;
+
+        &.collapsed {
+            transform: rotate(-90deg);
+        }
+    }
+
+    // 折叠图标
+    > i {
+        color: #777777;
+        margin-left: 10px;
+        line-height: 2rem;
+    }
+
+    // 代码语言
+    > span {
+        color: #777777;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    // 固定代码块的第一列也即固定代码行数
     td:first-child {
         position: sticky;
         left: 0;
         z-index: 1;
     }
+}
+// ==================================================
+// 代码块的复制按钮
+// ==================================================
+.copy-btn {
+    // 注意：top 是和折叠功能共生的
+    top: 5px;
+    font-size: 1rem;
+
+    > i {
+        font-size: 0.875rem;
+        font-weight: bold;
+    }
+}
+
+.copy-btn-dark {
+    color: darkslategrey;
 }
