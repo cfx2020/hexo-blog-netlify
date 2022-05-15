@@ -134,7 +134,14 @@ abbrlink:
 # 站点地图
 # https://github.com/hexojs/hexo-generator-sitemap
 sitemap:
-  path: sitemap.xml
+  path: 
+    - sitemap.xml
+    - sitemap.txt
+  template: ./sitemap_template.xml
+  template_txt: ./sitemap_template.txt
+  rel: false
+  tags: true
+  categories: true
 
 # hexo-filter-nofollow
 # https://github.com/hexojs/hexo-filter-nofollow
