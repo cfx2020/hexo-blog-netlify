@@ -231,5 +231,5 @@ live2d:
     width: 300          # 宽度
     height: 400         # 高度
   mobile:
-    show: true   # 在移动设备上是否开启live2d
+    show: false   # 在移动设备上是否开启live2d
 
