@@ -108,7 +108,7 @@ plt.show()
 
 
 
-| 颜色字符    | 说明         |
+| <div style="width:100px">颜色字符</div>|<div style="width:100px">说明</div>|
 | ----------- | ------------ |
 | `'b'`       | 蓝色         |
 | `'g'`       | 绿色         |
@@ -123,7 +123,7 @@ plt.show()
 
 
 
-| 风格字符 | 说明   |
+| <div style="width:100px">风格字符</div> | <div style="width:100px">说明</div>   |
 | -------- | ------ |
 | `'-'`    | 实线   |
 | `'--'`   | 破折线 |
@@ -133,7 +133,7 @@ plt.show()
 
 
 
-| 标记字符 | 说明               |
+| <div style="width:100px">标记字符 | <div style="width:100px">说明</div>               |
 | -------- | ------------------ |
 | `'.'`    | 点标记             |
 | `','`    | 像素标记（极小点） |
@@ -199,13 +199,13 @@ rcParams的属性：
 
 
 
-| 属性          | 说明                                     |
+| <div style="width:100px">属性 </div>         | <div style="width:100px">说明</div>                                     |
 | ------------- | ---------------------------------------- |
 | `font.family` | 用于显示字体的名字                       |
 | `font.style`  | 字体风格，正常’normal‘或斜体’italic‘     |
 | `font.size`   | 字体大小，整数字号或者’large‘、’x-small‘ |
 
-| 中文字体   | 说明     |
+| <div style="width:100px">中文字体</div>   | <div style="width:100px">说明</div>     |
 | ---------- | -------- |
 | `SimHei`   | 黑体     |
 | `Kaiti`    | 楷体     |
@@ -253,7 +253,7 @@ plt.show()
 
 
 
-| 函数           | 说明                     |
+| <div style="width:100px">函数</div>           | <div style="width:100px">说明</div>                     |
 | -------------- | ------------------------ |
 | `plt.xlabel()` | 对X轴增加文本标签        |
 | `plt.ylabel`   | 对Y轴增加文本标签        |
