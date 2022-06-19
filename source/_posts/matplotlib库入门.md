@@ -35,7 +35,7 @@ plt.savefig('test',dpi=600) # 第一个参数是文件名，第二个参数是�
 plt.show()
 ```
 
-![image-20210722181703662](https://raw.githubusercontent.com/cfx2020/image/main/pyplot.png?token=AONRX2UKBTSWDVZFLN2CUO3CV3SU6)
+![](https://raw.githubusercontent.com/cfx2020/image/main/pyplot.png?token=AONRX2UKBTSWDVZFLN2CUO3CV3SU6)
 
 > plot函数在绘制图像的时候如没指定横坐标，或只输入了一组数组，则会把默认这组数组为纵坐标，并根据纵坐标的索引生成横坐标
 
@@ -48,7 +48,7 @@ plt.axis([-1,10,0,6])  # axis函数前两个参数指定横轴的坐标区间，
 plt.show()
 ```
 
-![image-20210722182701212](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722182701212.png?token=AONRX2TMLF6NY55WBOKUUXLCV3S7C)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722182701212.png?token=AONRX2TMLF6NY55WBOKUUXLCV3S7C)
 
 ### pyplot的绘图区域
 
@@ -74,7 +74,7 @@ plt.plot(a,np.cos(2*np.pi*a),'r--')  # 绘制能量衰减曲线的正弦波函�
 plt.show()
 ```
 
-![image-20210722191257837](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722191257837.png?token=AONRX2XDIM2QPNBHLP5FJZ3CV3TC2)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722191257837.png?token=AONRX2XDIM2QPNBHLP5FJZ3CV3TC2)
 
 ### pyplot的plot()函数
 
@@ -102,9 +102,11 @@ plt.axis([-1,10,-1,40])
 plt.show()
 ```
 
-![image-20210722195141855](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722195141855.png?token=AONRX2UTLPK6H65S2QT3TS3CV3TEM)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722195141855.png?token=AONRX2UTLPK6H65S2QT3TS3CV3TEM)
 
 **format_string**参数是控制曲线格式的字符串，由颜色字符、风格字符和标记字符组成。
+
+
 
 | 颜色字符    | 说明         |
 | ----------- | ------------ |
@@ -119,6 +121,8 @@ plt.show()
 | `'w'`       | 白色         |
 | `'0.8'`     | 灰度值字符串 |
 
+
+
 | 风格字符 | 说明   |
 | -------- | ------ |
 | `'-'`    | 实线   |
@@ -126,6 +130,8 @@ plt.show()
 | `'-.'`   | 点划线 |
 | `':'`    | 虚线   |
 | `'',' '` | 无线条 |
+
+
 
 | 标记字符 | 说明               |
 | -------- | ------------------ |
@@ -151,6 +157,7 @@ plt.show()
 | `'d'`    | 瘦菱形标记         |
 | `'|'`    | 垂直线标记         |
 
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -161,7 +168,7 @@ plt.plot(a,a*1.5,'go-',a,a*2.5,'rx',a,a*3.5,'*',a,a*4.5,'b-.')
 plt.show()
 ```
 
-![image-20210722212414639](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722212414639.png?token=AONRX2VGRCZO2HAYCUDBX2LCV3THE)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722212414639.png?token=AONRX2VGRCZO2HAYCUDBX2LCV3THE)
 
 ** **kwargs**是可选参数，以上的颜色，风格，标记也都可以表示：
 
@@ -186,9 +193,11 @@ plt.ylabel('纵轴（值）')
 plt.show()
 ```
 
-![image-20210722214020212](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722214020212.png?token=AONRX2S4Z2KMIDHHNZVNSQDCV3TJM)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722214020212.png?token=AONRX2S4Z2KMIDHHNZVNSQDCV3TJM)
 
 rcParams的属性：
+
+
 
 | 属性          | 说明                                     |
 | ------------- | ---------------------------------------- |
@@ -204,6 +213,7 @@ rcParams的属性：
 | `FangSong` | 仿宋     |
 | `YouYuan`  | 幼圆     |
 | `STSong`   | 华文宋体 |
+
 
 ```python
 import matplotlib.pyplot as plt
@@ -221,7 +231,7 @@ plt.plot(a,np.cos(2*np.pi*a),'r--')
 plt.show()
 ```
 
-![image-20210722215539763](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722215539763.png?token=AONRX2WMG7EOVSCITE46WY3CV3TLY)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722215539763.png?token=AONRX2WMG7EOVSCITE46WY3CV3TLY)
 
 为了能够使用局部的中文字体我们在有中文输出的地方，增加一个`fontproperties`属性。这也是最推荐的方法上面的代码变为：
 
@@ -237,9 +247,11 @@ plt.plot(a,np.cos(2*np.pi*a),'r--')
 plt.show()
 ```
 
-![image-20210722220043902](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722220043902.png?token=AONRX2WNZ43YBLYAAT3RLZLCV3TNG)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210722220043902.png?token=AONRX2WNZ43YBLYAAT3RLZLCV3TNG)
 
 #### pyplot的文本显示函数
+
+
 
 | 函数           | 说明                     |
 | -------------- | ------------------------ |
@@ -248,6 +260,7 @@ plt.show()
 | `plt.title`    | 对图形整体增加文本标题   |
 | `plt.text`     | 在任意位置增加文本       |
 | `plt.annotate` | 在图形中增加带箭头的注解 |
+
 
 ```python
 import matplotlib.pyplot as plt
@@ -266,7 +279,7 @@ plt.grid(True)  # 加入网格
 plt.show()
 ```
 
-![image-20210723102027009](https://raw.githubusercontent.com/cfx2020/image/main/image-20210723102027009.png?token=AONRX2QZUV4NUYEAIL555KDCV3TPA)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210723102027009.png?token=AONRX2QZUV4NUYEAIL555KDCV3TPA)
 
 `plt.annotate(s,xy=arrow_crd,xytext=text_crd,arrowprops=dict)`是注释函数
 
@@ -293,7 +306,7 @@ plt.grid(True)
 plt.show()
 ```
 
-![image-20210723105054971](https://raw.githubusercontent.com/cfx2020/image/main/image-20210723105054971.png?token=AONRX2UCUAXBUC7WTG744ATCV3TQ2)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210723105054971.png?token=AONRX2UCUAXBUC7WTG744ATCV3TQ2)
 
 ### pyplot的子绘图区域
 
@@ -322,7 +335,7 @@ plt.subplot2grid((3,3), (2,1))
 ...
 ```
 
-![image-20210723110722972](https://raw.githubusercontent.com/cfx2020/image/main/image-20210723110722972.png?token=AONRX2WJ2CB2E3FBCM4A6ZLCV3TSY)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210723110722972.png?token=AONRX2WJ2CB2E3FBCM4A6ZLCV3TSY)
 
 使用subplot2grid函数固然可以划出不规则区域，但每次都要在选择子绘图区域时，都要确定整个绘图区域（例子中的第一个参数），所以我们可以使用GridSpec类和subplot函数来规定整体绘图区域。
 
@@ -339,7 +352,7 @@ ax4=plt.subplot(gs[2,0])
 ax5=plt.subplot(gs[2,1])
 ```
 
-![image-20210723112623176](https://raw.githubusercontent.com/cfx2020/image/main/image-20210723112623176.png?token=AONRX2W7REK27SJNTPPWURDCV3TUA)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210723112623176.png?token=AONRX2W7REK27SJNTPPWURDCV3TUA)
 
 ## 关键
 
