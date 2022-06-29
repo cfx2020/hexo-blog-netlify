@@ -10,7 +10,7 @@ tags:
   - NumPy
 categories:
   - Python
-  - 数据分析
+  - 数据分析之表示
 comments: true
 ---
 ## CSV文件
