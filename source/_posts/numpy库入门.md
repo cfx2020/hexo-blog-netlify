@@ -1,7 +1,7 @@
 ---
 banner_img: https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/2560px-NumPy_logo_2020.svg.png
 index_img: https://cdn.worldvectorlogo.com/logos/numpy-1.svg
-sticky: 3
+sticky: 1
 title: 1.NumPy库入门
 date: 2022-05-14 19:49:12
 updated: 2022-05-14 19:49:12
