@@ -1,7 +1,8 @@
 ---
 banner_img: /images/uploads/matplotlib.png
 index_img: /images/uploads/created_with_matplotlib-logo.svg.png
-title: Matplotlib库入门
+sticky: 3
+title: 1.Matplotlib库入门
 date: 2022-06-19 17:19:29
 updated: 2022-06-19 17:19:29
 tags:
