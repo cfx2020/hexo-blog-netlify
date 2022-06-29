@@ -1,7 +1,7 @@
 ---
 banner_img: https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/2560px-NumPy_logo_2020.svg.png
 index_img: https://cdn.worldvectorlogo.com/logos/numpy-1.svg
-sticky: 2
+sticky: ""
 title: 2.NumPy数据储存
 date: 2022-05-14 21:18:05
 updated: 2022-05-14 21:18:05
