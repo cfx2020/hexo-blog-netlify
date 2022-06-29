@@ -1,7 +1,7 @@
 ---
 banner_img: /images/uploads/matplotlib.png
 index_img: /images/uploads/created_with_matplotlib-logo.svg.png
-title: Matplotlib基础绘图函数示例
+title: 2.Matplotlib基础绘图函数示例
 date: 2022-06-29 19:01:20
 updated: 2022-06-29 19:01:20
 tags:
@@ -49,7 +49,7 @@ plt.show()
 
 ```
 
-![image-20210723130114684](https://raw.githubusercontent.com/cfx2020/image/main/image-20210723130114684.png)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210723130114684.png)
 
 ## pyplot直方图的绘制
 
@@ -67,7 +67,7 @@ plt.title("Histogram")
 plt.show()
 ```
 
-![image-20210724181602431](https://raw.githubusercontent.com/cfx2020/image/main/image-20210724181602431.png)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210724181602431.png)
 
 > 直方图可以很清晰的看出，一个数组在最低和最高之间个数的变化；可以归一化，协调，看到个数层面，取值层面的分布
 
@@ -92,7 +92,7 @@ for r,bar in zip(radii,bars):  # 设定每一个区域的颜色
 plt.show()
 ```
 
-![image-20210724214137197](https://raw.githubusercontent.com/cfx2020/image/main/image-20210724214137197.png)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210724214137197.png)
 
 ## pyplot散点图的绘制
 
@@ -107,7 +107,7 @@ ax.set_title('Simple Scatter')
 plt.show()
 ```
 
-![image-20210725120324252](https://raw.githubusercontent.com/cfx2020/image/main/image-20210725120324252.png)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210725120324252.png)
 
 ```python
 # t
@@ -119,4 +119,4 @@ plt.title('Simple Scatter')
 plt.show()
 ```
 
-![image-20210725121724655](https://raw.githubusercontent.com/cfx2020/image/main/image-20210725121724655.png)
+![](https://raw.githubusercontent.com/cfx2020/image/main/image-20210725121724655.png)
