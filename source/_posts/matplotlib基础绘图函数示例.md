@@ -1,13 +1,16 @@
 ---
 banner_img: /images/uploads/matplotlib.png
 index_img: /images/uploads/created_with_matplotlib-logo.svg.png
+sticky: 2
 title: 2.Matplotlib基础绘图函数示例
 date: 2022-06-29 19:01:20
 updated: 2022-06-29 19:01:20
 tags:
   - Python
+  - Matplotlib
 categories:
   - Python
+  - 数据分析之展示
 comments: true
 ---
 
