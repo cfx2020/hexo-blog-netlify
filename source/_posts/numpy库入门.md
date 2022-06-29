@@ -1,7 +1,8 @@
 ---
 banner_img: https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/2560px-NumPy_logo_2020.svg.png
 index_img: https://cdn.worldvectorlogo.com/logos/numpy-1.svg
-title: NumPy库入门
+sticky: 3
+title: 1.NumPy库入门
 date: 2022-05-14 19:49:12
 updated: 2022-05-14 19:49:12
 tags:
@@ -10,8 +11,7 @@ tags:
 categories:
   - Python
   - 数据分析
-keywords:
-  - NumPy
+keywords: []
 comments: true
 ---
 
