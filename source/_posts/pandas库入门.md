@@ -1,7 +1,7 @@
 ---
 banner_img: /images/uploads/686fced360d1fbcda9f936fe8203e6ae.jpeg
 index_img: /images/uploads/7cecd777631c9b5ff93088e29c4fc97e.jpeg
-title: Pandas库入门
+title: 1.Pandas库入门
 date: 2022-06-29 20:53:13
 updated: 2022-06-29 20:53:13
 tags:
