@@ -1,7 +1,7 @@
 ---
 banner_img: /images/uploads/686fced360d1fbcda9f936fe8203e6ae.jpeg
 index_img: /images/uploads/7cecd777631c9b5ff93088e29c4fc97e.jpeg
-title: Pandas数据特征分析
+title: 2.Pandas数据特征分析
 date: 2022-06-29 20:57:04
 updated: 2022-06-29 20:57:04
 tags:
