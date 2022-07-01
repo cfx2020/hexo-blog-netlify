@@ -977,6 +977,22 @@ links:
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
     type: waline
+  waline:
+    serverURL: 'https://blog-waline-q9e09yvqu-cfx2020.vercel.app/'
+    path: window.location.pathname
+    placeholder: 来都来了，总得留下点什么吧~
+    meta: ['nick', 'mail', 'link']
+    requiredMeta: ['nick']
+    lang: 'zh-CN'
+    emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+    dark: 'html[data-user-color-scheme="dark"]'
+    avatar: 'retro'
+    avatarCDN: 'https://seccdn.libravatar.org/avatar/'
+    avatarForce: false
+    wordLimit: 0
+    pageSize: 10
+    highlight: true
+
 
 
 #---------------------------
