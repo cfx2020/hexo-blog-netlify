@@ -187,7 +187,7 @@ image_minifier:
 
 bangumi: # 追番设置
   enable: true
-  source: bangumi
+  source: bgm
   bgmInfoSource: 'bgmApi'
   path: bangumis/index.html
   vmid: 635522
