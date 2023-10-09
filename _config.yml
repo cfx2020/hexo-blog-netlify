@@ -187,10 +187,10 @@ image_minifier:
 
 bangumi: # 追番设置
   enable: true
-  source: bgm
+  source: bili
   bgmInfoSource: 'bgmApi'
   path: bangumis/index.html
-  vmid: 635522
+  vmid: 335678244
   title: '追番列表'
   quote: '生命不息，追番不止！'
   show: 1
