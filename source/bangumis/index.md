@@ -5,4 +5,3 @@ type: "bangumis"
 uid: 635522
 vmid: 635522
 ---
-uid：635522
