@@ -28,7 +28,7 @@
     "hexo-renderer-markdown-it":"7.0.0",
     "hexo-renderer-stylus": "3.0.0",
     "hexo-server": "3.0.0",
-    "hexo-bilibili-bangumi": "1.8.9",
+    "hexo-bilibili-bangumi": "1.7.4",
     "hexo-helper-live2d": "3.1.1"
   }
 }
