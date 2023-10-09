@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "clean": "hexo clean",
     "bangumis": "hexo bangumi -u",
     "build": "hexo generate",
-    "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server"
   },
