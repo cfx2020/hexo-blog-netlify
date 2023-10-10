@@ -7,13 +7,13 @@ title: 铃溪的blogs
 subtitle: ''
 description: ''
 keywords:
-author: 
+author: 铃溪
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://yoursite.com
+url: http://cfx2020.netlify.com
 #permalink: :year/:month/:day/:title/
 permalink: post/:abbrlink/
 permalink_defaults:
@@ -200,9 +200,7 @@ bangumi: # 追番设置
   color: #000000
   webp: true
   progress: true
-  proxy:
-    host: '代理host'
-    port: '代理端口'
+  
   extra_options:
     key: value
     lazyload:
